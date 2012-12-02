@@ -1,2 +1,4 @@
 # proprietary file list
 # bin/filename
+etc/OperatorPolicy.xml
+etc/UserPolicy.xml
