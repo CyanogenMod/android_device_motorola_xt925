@@ -10,4 +10,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/config/gps.conf:system/etc/gps.conf \
 
+#safestrap support
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/kernelmodules/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko
+
 $(call inherit-product-if-exists, vendor/motorola/xt925/xt925-vendor.mk)
