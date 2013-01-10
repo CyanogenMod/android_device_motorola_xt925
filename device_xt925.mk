@@ -2,6 +2,11 @@ $(call inherit-product, device/motorola/vanquish-common/device.mk)
 
 LOCAL_PATH := device/motorola/xt925
 
+PRODUCT_LOCALES := en_US
+PRODUCT_LOCALES += xhdpi
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 #telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnGsmDevice=1 \

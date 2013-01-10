@@ -3,6 +3,10 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 
 $(call inherit-product, device/motorola/vanquish-common/cm.mk)
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
+
 # Release name
 PRODUCT_RELEASE_NAME := xt925
 
