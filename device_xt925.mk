@@ -7,6 +7,10 @@ PRODUCT_LOCALES += xhdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# QCOM Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=320
+
 #telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnGsmDevice=1 \
