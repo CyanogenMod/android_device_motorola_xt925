@@ -8,11 +8,7 @@ LOCAL_PATH := device/motorola/xt925
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8960-common
 TARGET_KERNEL_CONFIG := msm8960_mmi_defconfig
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel/zImage
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
+
 # copy all kernel modules under the "kerne/modules" directory to system/lib/modules
 PRODUCT_COPY_FILES += $(shell \
 	find $(LOCAL_PATH)/kernel/modules -name '*.ko' 2> /dev/null \
