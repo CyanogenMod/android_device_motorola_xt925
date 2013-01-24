@@ -1,1 +1,2 @@
 add_lunch_combo cm_xt925-userdebug
+add_lunch_combo full_xt925-userdebug

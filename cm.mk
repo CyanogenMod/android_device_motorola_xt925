@@ -9,6 +9,7 @@ TARGET_SCREEN_HEIGHT := 1280
 
 # Release name
 PRODUCT_RELEASE_NAME := xt925
+PRODUCT_NAME := cm_xt925
 
 $(call inherit-product, device/motorola/xt925/full_xt925.mk)
 
