@@ -27,6 +27,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnGsmDevice=1 \
+	telephony.lteOnCdmaDevice=0 \
+	ro.telephony.default_network=9 \
+	persist.radio.no_wait_for_card=1 \
+	persist.radio.call_type=1 \
+	persist.radio.apm_sim_not_pwdn=1 \
+	persist.radio.dfr_mode_set=1 \
 	ro.telephony.ril.v3=signalstrength
 
 PRODUCT_COPY_FILES += \
