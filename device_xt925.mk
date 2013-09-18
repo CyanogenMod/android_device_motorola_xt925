@@ -51,8 +51,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.dfr_mode_set=1 \
 	ro.telephony.ril.v3=signalstrength
 
-$(call inherit-product, device/motorola/msm8960-common/idc/idc.mk)
-$(call inherit-product, device/motorola/msm8960-common/keychars/keychars.mk)
-$(call inherit-product, device/motorola/msm8960-common/keylayout/keylayout.mk)
-$(call inherit-product, device/motorola/msm8960-common/modules/nfc/nfc.mk)
+$(call inherit-product, device/motorola/qcom-common/idc/idc.mk)
+$(call inherit-product, device/motorola/qcom-common/keychars/keychars.mk)
+$(call inherit-product, device/motorola/qcom-common/keylayout/keylayout.mk)
+$(call inherit-product, device/motorola/qcom-common/modules/nfc/nfc.mk)
 $(call inherit-product, vendor/motorola/xt925/xt925-vendor.mk)
