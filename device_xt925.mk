@@ -48,8 +48,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.no_wait_for_card=1 \
 	persist.radio.call_type=1 \
 	persist.radio.apm_sim_not_pwdn=1 \
-	persist.radio.dfr_mode_set=1 \
-	ro.telephony.ril.v3=signalstrength
+	persist.radio.dfr_mode_set=1
 
 $(call inherit-product, device/motorola/qcom-common/idc/idc.mk)
 $(call inherit-product, device/motorola/qcom-common/keychars/keychars.mk)
