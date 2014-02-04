@@ -28,9 +28,6 @@
 
 LOCAL_PATH := device/motorola/xt925
 
-# NFC
-BOARD_HAVE_NFC := true
-
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
