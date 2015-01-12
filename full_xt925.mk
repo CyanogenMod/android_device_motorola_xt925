@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,5 +32,5 @@ $(call inherit-product, device/motorola/xt925/device_xt925.mk)
 PRODUCT_DEVICE := xt925
 PRODUCT_NAME := full_xt925
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := XT925
+PRODUCT_MODEL := RAZR HD
 PRODUCT_MANUFACTURER := motorola
