@@ -22,5 +22,5 @@ TARGET_VENDOR_DEVICE_NAME := vanquish_u
 $(call inherit-product, device/motorola/xt925/full_xt925.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=XT925_retbr/vanquish_u:4.1.2/9.8.2Q-50-XT925_VQLM-26/1380067192:user/release-keys \
-    PRIVATE_BUILD_DESC="XT925_retbr-user 4.1.2 9.8.2Q-50-XT925_VQLM-26 1380067192 release-keys"
+    BUILD_FINGERPRINT=motorola/XT925_rtfr/vanquish_u:4.4.2/KDA20.127/59:user/release-keys \
+    PRIVATE_BUILD_DESC="XT925_rtfr-user 4.4.2 KDA20.127 59 release-keys"
